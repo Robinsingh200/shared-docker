@@ -1,4 +1,4 @@
-def clonning(string url , string branch){
-  git url: "$url ,branch: $branch"
+def clonning(String url , String branch){
+  git branch: branch , url: url 
   echo "code - done then " 
 }
